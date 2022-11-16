@@ -1,6 +1,11 @@
 /* this code is use to reverse the linked list */
 
-
+/*
+  in it a package named "dsa" included 
+  first of all you have to keep the files "Node.java" and "linkedListReverse.java" together in a folder then :
+  for complie this file write on terminal -> javac -d . linkedListReverse.java
+  then run the file by -> java dsa.linkedListReverse
+*/
 
 package dsa;
 import java.util.Scanner;
