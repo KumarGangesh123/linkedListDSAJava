@@ -156,7 +156,7 @@ public class Node {
         return mergedNode;
     }
 
-    public void displayNodes(node head){      // this method is use to display the linked list
+    public void displayList(node head){      // this method is use to display the linked list , this method uses the iterative approach
         int x=0;
         System.out.print("\n\nData in the linked list is :\n\n");
         while(head != null){
@@ -165,5 +165,14 @@ public class Node {
             x++;
         }
     }
+  
+  public void showListByRecursion(Node head){   //  this method is use to display the linked list , this method uses the recursive approach
+    if(head == null){
+      return ;
+    }
+    System.out.print(head.data+" ");
+    showListByRecursion(head.next);
+  }
+  
 }
 
